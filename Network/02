@@ -1,0 +1,2 @@
+ifconfig -L en0 | grep "inet " | cut -d " " -f 6
+ping 10.10.255.255 -c 2

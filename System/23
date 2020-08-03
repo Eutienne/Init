@@ -1,0 +1,2 @@
+# At graphic session, you log out of the old account and log in on the new one.
+# For ssh, you log out the ssh with exit(because you where in befor) than you ssh <user name>@<ip addr>

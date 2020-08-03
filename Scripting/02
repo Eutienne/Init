@@ -1,0 +1,13 @@
+#!/bin/bash
+users
+echo  "Who do you want to kill?"
+read ans
+echo "Are you sure you want to kill $ans [y/n]: "
+read dans
+if [ "$dans" = "y" ]
+then sudo pkill -u $ans
+   	sudo userdel -r -f $ans
+	echo "User $ans is eliminated!!"
+else
+	echo "User $ans still lives"
+fi

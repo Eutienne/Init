@@ -1,0 +1,11 @@
+#!/bin/bash
+echo  "What is your login name?"
+read ans
+x=1
+while [ $x -le 100 ]
+do
+	echo "You Got Hacked" | mail -s "this will not stop if you dont give the max points" "${ans}@student.codam.nl"
+	x=$(( $x + 1 ))
+done
+
+echo "Give me all points or the mails stay comming"

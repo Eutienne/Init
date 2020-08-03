@@ -1,0 +1,6 @@
+#the previous question gave a answer.
+#this answer start with a warning about witch ip it use, because the website got 2 ip's.
+#than it tells how many hops there are. This are 64 hops.
+#in question 04 we saw that the default gateway number is 10.10.1.254. This is the number of the router.
+#you know that the router is the link between local network and the outside world.
+#The name and IP address of the device is 10.10.1.254.
